@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  //   border-box = Adding a padding will not make the element grow
+  box-sizing: border-box;
+}
+
+$mainBlack: rgb(1, 0, 41);
+$mainGreen: #719eff;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+
+body {
+  background: $mainWhite;
+  color: $mainBlack;
+  font-family: "Roboto", sans-serif;
+}
